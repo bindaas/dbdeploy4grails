@@ -9,6 +9,10 @@
 //    ant.mkdir(dir:"${basedir}/grails-app/jobs")
 //
 
-
+Ant.mkdir(dir:"${basedir}/grails-app/dbdeploy")
+Ant.mkdir(dir:"${basedir}/grails-app/dbdeploy/delta")
 Ant.copy(file:"${pluginBasedir}/src/samples/DbdeployConfig.groovy",
          todir:"${basedir}/grails-app/conf")
+Ant.copy(file:"${pluginBasedir}/src/samples/createSchemaVersionTable.ora.sql",
+         todir:"${basedir}/grails-app/dbdeploy")
+         
