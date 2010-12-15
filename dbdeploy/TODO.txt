@@ -1,0 +1,11 @@
+TODO
+
+1) Give an option to define DB Type
+	Right now- this works for only ORACLE
+2) Rename seed to init
+3) Automatically detect DB Type
+4) Generate - not started
+	Run dbdeploy to generate output file
+5) If seed\init is called twice- show a better error message
+6) Execute consolidated sql as well
+7) SUpport for formating
