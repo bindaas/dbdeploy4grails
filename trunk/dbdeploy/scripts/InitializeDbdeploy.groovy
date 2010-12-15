@@ -20,11 +20,9 @@ def populateProperties = {
 
 }
   
-target(newstuff:"My Funky Script") {
+target(default:"Initialize DBDeploy") {
 	populateProperties ()
 	
-	println 'props->'+props
-
 	ant.sequential {
 		sql(driver:props.'db.driver', url:props.'db.url', userid:props.'db.username', password:props.'db.password'){
 			fileset(file:'${basedir}/grails-app/dbdeploy/createSchemaVersionTable.ora.sql')
@@ -32,5 +30,3 @@ target(newstuff:"My Funky Script") {
 	}	
 
 }
-
-setDefaultTarget ( newstuff )
