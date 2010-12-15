@@ -11,18 +11,27 @@
 
 Ant.mkdir(dir:"${basedir}/grails-app/dbdeploy")
 Ant.mkdir(dir:"${basedir}/grails-app/dbdeploy/delta")
+Ant.mkdir(dir:"${basedir}/grails-app/dbdeploy/delta/initialize")
+Ant.mkdir(dir:"${basedir}/grails-app/dbdeploy/delta/output")
+
 Ant.copy(file:"${pluginBasedir}/src/samples/DbdeployConfig.groovy",
          todir:"${basedir}/grails-app/conf")
+
 Ant.copy(file:"${pluginBasedir}/src/samples/createSchemaVersionTable.ora.sql",
-         todir:"${basedir}/grails-app/dbdeploy")
+         todir:"${basedir}/grails-app/dbdeploy/initialize")
 Ant.copy(file:"${pluginBasedir}/src/samples/createSchemaVersionTable.db2.sql",
-         todir:"${basedir}/grails-app/dbdeploy")
+         todir:"${basedir}/grails-app/dbdeploy/initialize")
 Ant.copy(file:"${pluginBasedir}/src/samples/createSchemaVersionTable.hsql.sql",
-         todir:"${basedir}/grails-app/dbdeploy")
+         todir:"${basedir}/grails-app/dbdeploy/initialize")
 Ant.copy(file:"${pluginBasedir}/src/samples/createSchemaVersionTable.mssql.sql",
-         todir:"${basedir}/grails-app/dbdeploy")
+         todir:"${basedir}/grails-app/dbdeploy/initialize")
 Ant.copy(file:"${pluginBasedir}/src/samples/createSchemaVersionTable.mysql.sql",
-         todir:"${basedir}/grails-app/dbdeploy")
+         todir:"${basedir}/grails-app/dbdeploy/initialize")
 Ant.copy(file:"${pluginBasedir}/src/samples/createSchemaVersionTable.syb-ase.sql",
-         todir:"${basedir}/grails-app/dbdeploy")
+         todir:"${basedir}/grails-app/dbdeploy/initialize")
+
+Ant.copy(file:"${pluginBasedir}/src/samples/001_create_table.sql",
+         todir:"${basedir}/grails-app/dbdeploy/delta")
+Ant.copy(file:"${pluginBasedir}/src/samples/002_insert_data.sql",
+         todir:"${basedir}/grails-app/dbdeploy/delta")
          
