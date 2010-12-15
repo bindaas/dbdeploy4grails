@@ -5,9 +5,6 @@ output{
 
 dbdeploy{
 	sqlFolder = './dbdeploy/delta'
+	dbType= 'ora' //Possible values are ora, mysql, mssql, db2, syb-ase hsql
 }
 
-options{
-	applyChanges = 'true'
-
-}
