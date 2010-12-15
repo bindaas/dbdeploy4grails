@@ -11,8 +11,8 @@
 
 Ant.mkdir(dir:"${basedir}/grails-app/dbdeploy")
 Ant.mkdir(dir:"${basedir}/grails-app/dbdeploy/delta")
-Ant.mkdir(dir:"${basedir}/grails-app/dbdeploy/delta/initialize")
-Ant.mkdir(dir:"${basedir}/grails-app/dbdeploy/delta/output")
+Ant.mkdir(dir:"${basedir}/grails-app/dbdeploy/initialize")
+Ant.mkdir(dir:"${basedir}/grails-app/dbdeploy/output")
 
 Ant.copy(file:"${pluginBasedir}/src/samples/DbdeployConfig.groovy",
          todir:"${basedir}/grails-app/conf")
