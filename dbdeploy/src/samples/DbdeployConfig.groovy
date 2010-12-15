@@ -1,6 +1,6 @@
 output{
-	consolidatedScriptFle = 'consolidated_script.sql'
-	consolidatedUndoScriptFle = 'undo_consolidated_script.sql'
+	consolidatedScriptFle = './grails-app/dbdeploy/output/consolidated_script.sql'
+	consolidatedUndoScriptFle = './grails-app/dbdeploy/output/undo_consolidated_script.sql'
 }
 
 dbdeploy{
