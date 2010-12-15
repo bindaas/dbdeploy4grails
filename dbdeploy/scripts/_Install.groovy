@@ -15,4 +15,14 @@ Ant.copy(file:"${pluginBasedir}/src/samples/DbdeployConfig.groovy",
          todir:"${basedir}/grails-app/conf")
 Ant.copy(file:"${pluginBasedir}/src/samples/createSchemaVersionTable.ora.sql",
          todir:"${basedir}/grails-app/dbdeploy")
+Ant.copy(file:"${pluginBasedir}/src/samples/createSchemaVersionTable.db2.sql",
+         todir:"${basedir}/grails-app/dbdeploy")
+Ant.copy(file:"${pluginBasedir}/src/samples/createSchemaVersionTable.hsql.sql",
+         todir:"${basedir}/grails-app/dbdeploy")
+Ant.copy(file:"${pluginBasedir}/src/samples/createSchemaVersionTable.mssql.sql",
+         todir:"${basedir}/grails-app/dbdeploy")
+Ant.copy(file:"${pluginBasedir}/src/samples/createSchemaVersionTable.mysql.sql",
+         todir:"${basedir}/grails-app/dbdeploy")
+Ant.copy(file:"${pluginBasedir}/src/samples/createSchemaVersionTable.syb-ase.sql",
+         todir:"${basedir}/grails-app/dbdeploy")
          
