@@ -4,7 +4,7 @@ output{
 }
 
 dbdeploy{
-	sqlFolder = './dbdeploy/delta'
+	sqlFolder = './grails-app/dbdeploy/delta'
 	dbType= 'ora' //Possible values are ora, mysql, mssql, db2, syb-ase hsql
 }
 
