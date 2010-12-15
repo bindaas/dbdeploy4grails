@@ -5,9 +5,6 @@ output{
 
 dbdeploy{
 	sqlFolder = './dbdeploy/delta'
-	schemaCreationScripts{
-		ora = 'createSchemaVersionTable.ora.sql'
-	}
 }
 
 options{
