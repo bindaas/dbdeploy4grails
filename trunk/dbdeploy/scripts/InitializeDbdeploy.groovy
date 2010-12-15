@@ -20,7 +20,7 @@ def populateProperties = {
 
 }
   
-target(default:"Initialize DBDeploy") {
+target('default':"Initialize DBDeploy") {
 	populateProperties ()
 	
 	ant.sequential {
@@ -30,3 +30,4 @@ target(default:"Initialize DBDeploy") {
 	}	
 
 }
+setDefaultTarget('default')
