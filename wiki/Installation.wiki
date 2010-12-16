@@ -1,4 +1,4 @@
-#summary How to install this plugin ?.
+#summary How to install and use this plugin ?
 #labels Featured
 
 = Installation =
