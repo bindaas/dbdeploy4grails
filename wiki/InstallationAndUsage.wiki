@@ -6,7 +6,8 @@
 grails install-plugin http://dbdeploy4grails.googlecode.com/files/grails-dbdeploy-0.1.zip
 
 = Configuration =
-  All configurations are controlled from  *grails-app/conf/DbdeployConfig.groovy*
+  All configurations are controlled from  *grails-app/conf/DbdeployConfig.groovy*  
+  This file will be automatically created by the plugin with defaults
 
 == Properties ==
   _output.consolidatedScriptFle_ Name and path of the file which has all the changes that need to be applied to the database.
