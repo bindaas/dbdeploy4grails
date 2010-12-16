@@ -10,7 +10,11 @@ grails install-plugin http://dbdeploy4grails.googlecode.com/files/grails-dbdeplo
 
 == Properties ==
   output.consolidatedScriptFle
+
   output.consolidatedUndoScriptFle
+
   dbdeploy.sqlFolder
+
   dbdeploy.dbType
+
   
