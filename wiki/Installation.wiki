@@ -9,12 +9,12 @@ grails install-plugin http://dbdeploy4grails.googlecode.com/files/grails-dbdeplo
   All configurations are controlled from  *grails-app/conf/DbdeployConfig.groovy*
 
 == Properties ==
-  _output.consolidatedScriptFle_
+  _output.consolidatedScriptFle_ Name and path of the file which has all the changes that need to be applied to the database.
 
-  _output.consolidatedUndoScriptFle_
+  _output.consolidatedUndoScriptFle_ This is the undo SQL script. This is optional.
 
-  _dbdeploy.sqlFolder_
+  _dbdeploy.sqlFolder_ Contains all the SQL files which need to be applied to the database
 
-  _dbdeploy.dbType_
+  _dbdeploy.dbType_ Possible values are ora, mysql, mssql, db2, syb-ase, hsql
 
   
