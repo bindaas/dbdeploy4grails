@@ -47,7 +47,9 @@ def params = ['-U' ,dsProps.'db.username','-P', dsProps.'db.password','-D' ,dsPr
 	DbDeployCommandLineParser commandLineParser = new DbDeployCommandLineParser();
 	DbDeploy dbDeploy = new DbDeploy();
 	commandLineParser.parse(params, dbDeploy);
-	dbDeploy.setUndoOutputfile(new java.io.File(dbdProps.'dbd.undoOutputFle'))
+	if(dbdProps.'dbd.undoOutputFle'){
+		dbDeploy.setUndoOutputfile(new java.io.File(dbdProps.'dbd.undoOutputFle'))
+	}
 	dbDeploy.go();
 
 }
