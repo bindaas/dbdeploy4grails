@@ -11,4 +11,4 @@ This is a wrapper over DBDeploy.
 This plugin grail-izes DBDeploy.
 The offerings of this plugin is directly derived from what you can do with DBDeploy.
 
-Also see dbdeploy.com for more details on how DBDeploy works
+Also see <a href="http://dbdeploy.com">dbdeploy.com</a> for more details on how DBDeploy works
