@@ -1,0 +1,16 @@
+#summary Frequently asked questions.
+#labels Featured
+
+= FAQs=
+
+  * How do I report a defect or request an enhancement  
+      Drop an email to rajiv.narula@gmail.com
+  * Can I commit to the project. 
+      Sure !!! Contact me and we can discuss further.
+  * What all databases are supported. 
+      Same as DBDeploy. ora, mysql, mssql, db2, syb-ase, hsql
+  * Can I get this plugin the good old regular way ? i.e grails install-plugin dbdeploy. 
+      Not yet. Maybe in future...
+
+
+
