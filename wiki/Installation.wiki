@@ -1,7 +1,6 @@
-#summary One-sentence summary of this page.
+#summary How to install this plugin ?.
 #labels Featured
 
 = Installation =
 
 grails install-plugin http://dbdeploy4grails.googlecode.com/files/grails-dbdeploy-0.1.zip
-
