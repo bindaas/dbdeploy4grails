@@ -11,15 +11,15 @@ class DbdeployGrailsPlugin {
     ]
 
     // TODO Fill in these fields
-    def author = "Your name"
-    def authorEmail = ""
+    def author = "Rajiv Narula"
+    def authorEmail = "rajiv.narula@gmail.com"
     def title = "Plugin summary/headline"
     def description = '''\\
-Brief description of the plugin.
+Wrapper over DBDeploy.
 '''
 
     // URL to the plugin's documentation
-    def documentation = "http://grails.org/plugin/dbdeploy"
+    def documentation = "http://code.google.com/p/dbdeploy4grails/w/list"			
 
     def doWithWebDescriptor = { xml ->
         // TODO Implement additions to web.xml (optional), this event occurs before 
