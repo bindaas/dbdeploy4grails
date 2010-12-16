@@ -29,9 +29,3 @@ Ant.copy(file:"${pluginBasedir}/src/samples/createSchemaVersionTable.mysql.sql",
          todir:"${basedir}/grails-app/dbdeploy/initialize")
 Ant.copy(file:"${pluginBasedir}/src/samples/createSchemaVersionTable.syb-ase.sql",
          todir:"${basedir}/grails-app/dbdeploy/initialize")
-
-Ant.copy(file:"${pluginBasedir}/src/samples/001_create_table.sql",
-         todir:"${basedir}/grails-app/dbdeploy/delta")
-Ant.copy(file:"${pluginBasedir}/src/samples/002_insert_data.sql",
-         todir:"${basedir}/grails-app/dbdeploy/delta")
-         
