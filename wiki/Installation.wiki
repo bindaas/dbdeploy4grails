@@ -4,3 +4,13 @@
 = Installation =
 
 grails install-plugin http://dbdeploy4grails.googlecode.com/files/grails-dbdeploy-0.1.zip
+
+= Configuration =
+  All configurations are controlled from  grails-app/conf/DbdeployConfig.groovy
+
+== Properties ==
+  output.consolidatedScriptFle
+  output.consolidatedUndoScriptFle
+  dbdeploy.sqlFolder
+  dbdeploy.dbType
+  
