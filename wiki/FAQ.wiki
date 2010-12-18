@@ -9,8 +9,6 @@
       Sure !!! Contact me (rajiv.narula at google dot com)and we can discuss further.
   * What all databases are supported? 
       Same as DBDeploy. ora, mysql, mssql, db2, syb-ase, hsql
-  * Can I get this plugin the good old regular way ? i.e grails install-plugin dbdeploy? 
-      Not yet. Maybe in future...
   * What version of DBDeploy does this plugin use ? 
       dbdeploy-cli-3.0M2
   * I have more questions not listed here. How can I ask those ? 
