@@ -1,0 +1,17 @@
+<plugin name='dbdeploy' version='0.1' grailsVersion='1.3.5 &gt; *'>
+  <author>Rajiv Narula</author>
+  <authorEmail>rajiv.narula@gmail.com</authorEmail>
+  <title>Plugin summary/headline</title>
+  <description>\
+Wrapper over DBDeploy.
+</description>
+  <documentation>http://code.google.com/p/dbdeploy4grails/w/list</documentation>
+  <resources>
+    <resource>BuildConfig</resource>
+    <resource>Config</resource>
+    <resource>DataSource</resource>
+    <resource>UrlMappings</resource>
+  </resources>
+  <dependencies />
+  <behavior />
+</plugin>
