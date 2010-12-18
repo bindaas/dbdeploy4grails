@@ -3,7 +3,7 @@
 
 = Installation =
 
-grails install-plugin http://dbdeploy4grails.googlecode.com/files/grails-dbdeploy-0.1.zip
+grails install-plugin dbdeploy
 
 = Configuration =
   All configurations are controlled from  *grails-app/conf/DbdeployConfig.groovy*  
